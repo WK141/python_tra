@@ -4,4 +4,4 @@ print("2つめの値を入力してください")
 num2 = int(input())
 
 print("合計 : " + str(num1 + num2))
-print("平均 : " + str((num1 + num2)//2))
+print("平均 : " + str((num1 + num2) / 2))

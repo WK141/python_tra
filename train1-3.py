@@ -6,12 +6,12 @@ weight = float(input())
 bmi = weight / (height ** 2) 
 
 if bmi < 18.5 :
-    j = "やせ"
+    judge = "やせ"
 elif bmi < 25 :
-    j = "標準"
+    judge = "標準"
 elif bmi < 30 :
-    j = "肥満"
+    judge = "肥満"
 else :
-    j = "高度な肥満"
+    judge = "高度な肥満"
 
-print("あなたは「" + str(j) + "」です。")
+print("あなたは「" + str(judge) + "」です。")
