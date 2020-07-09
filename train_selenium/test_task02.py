@@ -1,4 +1,4 @@
-#ひとつ上の階層をpathに追加
+#ひとつ上の階層をpathに追加する
 import os
 import sys
 path = os.path.join(os.path.dirname(__file__), '../')
